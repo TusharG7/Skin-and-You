@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/appointment/send",
+        "https://skin-and-you.onrender.com/api/appointment/send",
         { name, email, phone, concern, date, time },
         {
           headers: {
