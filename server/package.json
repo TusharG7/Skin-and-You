@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "npm run --prefix ./client && npm run build --prefix ./client && npm install"
+    "build": "npm run --prefix ./client && npm install --prefix ./client && npm run build"
   },
   "author": "",
   "license": "ISC",
